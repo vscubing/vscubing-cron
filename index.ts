@@ -4,7 +4,7 @@ import { tryCatch } from './lib/try-catch'
 
 const name = 'publishScheduledContest'
 // const cronTime = '0 20 * * SAT'
-// test autodeployment 4
+console.log('test autodeployment 5')
 const cronTime = '*/5 * * * *'
 const timeZone = 'Europe/Berlin'
 CronJob.from({
