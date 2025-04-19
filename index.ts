@@ -3,7 +3,8 @@ import { env } from './lib/env'
 import { tryCatch } from './lib/try-catch'
 
 const name = 'publishScheduledContest'
-const cronTime = '0 20 * * *'
+// const cronTime = '0 20 * * SAT'
+const cronTime = '*/5 * * * *'
 const timeZone = 'Europe/Berlin'
 CronJob.from({
   cronTime,
